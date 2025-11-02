@@ -39,7 +39,9 @@ The first three argumenst are input dimension, regularization strength, and dist
 
 In order to take advantage of multiprocessing in python, you must ensure that numpy operates in "single-threaded" mode. This can be achieved by calling the following (which you may want to create an alias for):
 
-`>> MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 OPENBLAS_NUM_THREADS=1 python rf-reg.py [...]`
+```python
+>> MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 OPENBLAS_NUM_THREADS=1 python rf-reg.py [...]
+```
 
 
 
