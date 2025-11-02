@@ -3,7 +3,7 @@
 For details on possible hyperparameters, see the argument parsing protocols at the top of each script.
 
 * sobo-rf-theory.py - minimal fixed point system for Sobolev training, implemented asymptotically via operator-valued Cauchy transforms
-* rf-theory.py - minimal fixed point system for $L^$ training, implemented asymptotically via operator-valued Cauchy transforms
+* rf-theory.py - minimal fixed point system for $L^2$ training, implemented asymptotically via operator-valued Cauchy transforms
 * rf-reg.py -  Monte Carlo simulations for Sobolev training with uninformed gradient model, with gradient projections "v = N(0, I_d)" for each column of Vk
 * texSettings.py - formatting details
 
