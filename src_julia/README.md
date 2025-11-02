@@ -14,7 +14,7 @@ Edit these scripts to choose details of test hyperparameters---for instance, net
 * phi_moments.csv - precomputed moments related to a number of observations models, used by ```l2_theory.jl``` and ```sobo_theory.jl``` 
 * rf-reg.jl - functions used for empirical training of random features model
 
-Note: in ```l2_theory.jl``` and ```sobo_theory.jl```, the fixed points system is solved with the exciting mixing algorithm implemented in ```scipy.optimize0```. This functionality is ported to Julia through ```PyCall```.
+Note: in ```l2_theory.jl``` and ```sobo_theory.jl```, the fixed points system is solved with the exciting mixing algorithm implemented in ```scipy.optimize```. This functionality is ported to Julia through ```PyCall```.
 
 # How to run scripts
 
