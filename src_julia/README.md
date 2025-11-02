@@ -21,7 +21,7 @@ Note: in ```l2_theory.jl``` and ```sobo_theory.jl```, the fixed points system is
 To run in julia REPL:
 
 ```julia
-julia --project --threads <# of threads>
+julia --project=</path/to/project> --threads <# of threads>
 include("<filename>")
 ```
 
