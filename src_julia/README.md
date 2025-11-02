@@ -38,3 +38,5 @@ To run from command line and parallelize over tests:
 ```julia
 julia <filename> <task id>  <total number of tasks>
 ```
+
+The output will be one .csv file per task with all metadata and results, named according to settings in the run script. Output is recorded after each test for a given set of hyperparameters.
