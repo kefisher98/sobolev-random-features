@@ -11,7 +11,7 @@ For details on possible hyperparameters, see the argument parsing protocols at t
 # Running scripts
 
 
-## theory
+## Theory
 
 The saddle point system for $L_2$ training is implemented in `rf-theory.py` and for (projected) Sobolev training in `sobo-rf-theory.py`. These scripts are called by running, e.g.,
 ```python
