@@ -21,7 +21,7 @@ Note: in ```l2_theory.jl``` and ```sobo_theory.jl```, the fixed points system is
 To run in Julia REPL:
 
 ```julia
-julia --project=</path/to/project> --threads <number of threads>
+>> julia --project=</path/to/project> --threads <number of threads>
 include("<filename>")
 ```
 
@@ -29,14 +29,14 @@ include("<filename>")
 To run from command line in serial:
 
 ```julia
-julia <filename>
+>> julia <filename>
 ```
 
 
 To run from command line and parallelize over tests:
 
 ```julia
-julia <filename> <task id>  <total number of tasks>
+>> julia <filename> <task id>  <total number of tasks>
 ```
 
 The output will be one .csv file per task with all metadata and results, named according to settings in the run script. Output is recorded after each test for a given set of hyperparameters.
