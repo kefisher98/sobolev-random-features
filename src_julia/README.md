@@ -33,7 +33,7 @@ julia <filename>
 ```
 
 
-To run from command line, parallelization over tests:
+To run from command line and parallelize over tests:
 
 ```julia
 julia <filename> <task id>  <total number of tasks>
